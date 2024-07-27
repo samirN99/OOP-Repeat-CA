@@ -13,4 +13,17 @@ public class Question1 {                    // Method to remove all nth numbers 
         }
         return resultList;
     }
-}
+
+
+    public static void main(String[] args) {
+        List<Integer> inputList = new ArrayList<>();        // adds a new arraylsit
+        for (int i = 1; i <= 10; i++) {                     //a for loop to add nums. 1 to 10 to the inputlist
+            inputList.add(i);
+        }
+
+        int n = 4;                                                                          //tests the the code by making n= 4
+        List<Integer> result = removeNthItems(inputList, n);
+        System.out.println("First List : " + inputList);
+        System.out.println(" after Removing every " + n + "item : " + result);
+    }
+    }

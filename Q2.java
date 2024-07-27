@@ -18,5 +18,23 @@ public class Q2 {
 
     public static void main(String[] args) {        //method to test the 2 lists
 
+        List<Integer> input = new ArrayList();
+        input.add(1);
+        input.add(2);
+        input.add(3);
+        input.add(4);
+        input.add(5);
+
+
+        List<Integer> first = new ArrayList<>();
+        List<Integer> second = new ArrayList<>();
+
+
+        splitList(input,first,second);
+
+
+        System.out.println("Input List:" + input);
+        System.out.println("First Half:" + first);
+        System.out.println("Second Half: " + second);
     }
 }

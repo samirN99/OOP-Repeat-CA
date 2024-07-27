@@ -18,7 +18,7 @@ public class Q2 {
 
     public static void main(String[] args) {        //method to test the 2 lists
 
-        List<Integer> input = new ArrayList();
+        List<Integer> input = new ArrayList<>();
         input.add(1);
         input.add(2);
         input.add(3);

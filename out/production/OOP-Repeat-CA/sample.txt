@@ -1,0 +1,4 @@
+Java is a programming language
+Programming in Java can be fun
+Java code can be used for many applications
+Many developers use Java for backend development
